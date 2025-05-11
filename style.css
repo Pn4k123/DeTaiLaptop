@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header-top {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    height: 100px;
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-top .logo-container {
+    display: flex;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.header-top .logo-container img {
+    height: 134px !important;
+    width: 228px !important;
+}
+
+.header-bot {
+    background-color: #434377;
+    padding: 20px 0;
+    height: 20px;
+}
