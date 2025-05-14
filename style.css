@@ -152,10 +152,7 @@ body {
     font-weight: 500;
     padding: 10px 24px;
     border-radius: 6px;
-    transition:
-        color 0.2s,
-        background 0.2s,
-        filter 0.2s;
+    transition: color 0.2s, background 0.2s, filter 0.2s;
     display: block;
 }
 
@@ -169,7 +166,7 @@ body {
     gap: 40px;
     align-items: flex-start;
     max-width: 1200px;
-    margin: 32px auto 0 auto;
+    margin: 25px 640px 0 auto;
     padding: 0 24px;
 }
 
@@ -280,11 +277,31 @@ body {
     background: #f5f5fa;
 }
 
+.side-banner-container {
+    padding-right: 200px;
+    position: sticky;
+    top: 0;
+    max-width: 300px;
+    margin-top: 0;
+}
+
+.side-banner-container img {
+    width: 149px;
+    height: auto;
+}
+
 .container2 {
     display: flex;
     max-width: 1400px;
     margin: 40px auto 0 auto;
     padding: 0px;
+}
+
+.ad-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .products-container {
