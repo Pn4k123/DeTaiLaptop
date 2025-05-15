@@ -1076,6 +1076,58 @@ body {
         padding-left: 50px;
     }
 
+    .store-container {
+        display: block;
+        height: auto;
+    }
+
+    .sidebar-container {
+        height: 450px;
+        width: 90%;
+    }
+
+    .sidebar-list {
+        max-width: 425px;
+    }
+
+    .about-banner {
+        display: block;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .banner-about-description {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .lab-container {
+        display: block;
+        padding-left: 50px;
+    }
+
+    .lab-card {
+        width: 300px;
+    }
+
+    .product-info {
+        display: block;
+    }
+
+    .product-info .product-image img {
+        width: 356px;
+    }
+
+    .cart-total {
+        padding-top: 15px;
+        font-size: 15px;
+        padding-right: 10px;
+        text-align: left;
+    }
+
+    .checkout-btn {
+        padding: 8px 20px;
+    }
+
     /* footer */
     .footer-container {
         display: grid;
