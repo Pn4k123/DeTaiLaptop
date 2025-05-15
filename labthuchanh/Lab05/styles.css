@@ -1,0 +1,48 @@
+.menuNgang{
+    list-style: none;
+    display: flex;
+}
+
+.menuNgang li{
+    padding: 10px 10px;
+    background-color: rgb(127, 255, 212);
+    
+}
+
+.menuNgang li a{
+    text-decoration: none;
+}
+
+.menuNgang li a:hover{
+    color: white;
+}
+
+.menuNgang li:hover
+{
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(243, 156, 18);
+    
+}
+
+.menuDoc{
+    list-style: none;
+    padding: 10px 10px;
+    width: 500px;
+}
+
+.menuDoc li a {
+    text-decoration: none;
+}
+
+.menuDoc li{
+    background-color: rgb(52, 152, 219);
+    padding: 10px 10px;
+    margin: 1px;
+}
+
+.menuDoc li:hover{
+    filter: brightness(130%);
+    font-style: italic;
+}
+
