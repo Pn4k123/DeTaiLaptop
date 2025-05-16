@@ -74,7 +74,7 @@ body {
 }
 
 .header-top .search-container button:hover {
-    background: #ececec;
+    filter: brightness(120%);
 }
 
 .header-top .search-container .search-icon {
@@ -166,8 +166,10 @@ body {
     gap: 40px;
     align-items: flex-start;
     max-width: 1200px;
-    margin: 25px 640px 0 auto;
+    width: 100%;
+    margin: -421px auto auto auto;
     padding: 0 24px;
+
 }
 
 .banner-container {
@@ -236,11 +238,6 @@ body {
     gap: 12px;
 }
 
-.menu-icon,
-.dropdown-icon {
-    font-size: 1.5em;
-}
-
 .categories-title {
     flex: 1;
 }
@@ -278,11 +275,12 @@ body {
 }
 
 .side-banner-container {
-    padding-right: 200px;
+    padding-left: 10px;
+    padding-right: 100px;
     position: sticky;
+    left: 10px;
     top: 0;
     max-width: 300px;
-    margin-top: 0;
 }
 
 .side-banner-container img {
@@ -906,6 +904,10 @@ body {
     display: flex;
     padding-top: 20px;
     padding-left: 200px;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    flex-direction: row;
 }
 
 .banner-about-container {
