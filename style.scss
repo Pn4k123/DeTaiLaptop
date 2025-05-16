@@ -159,6 +159,21 @@ body {
     }
 
     .body {
+
+        .side-banner-container {
+            padding-left: 10px;
+            padding-right: 100px;
+            position: sticky;
+            left: 10px;
+            top: 0;
+            max-width: 300px;
+
+            img {
+                width: 149px;
+                height: auto;
+            }
+        }
+
         .container1 {
             display: flex;
             gap: 40px;
@@ -251,19 +266,7 @@ body {
                 }
             }
 
-            .side-banner-container {
-                padding-left: 10px;
-                padding-right: 100px;
-                position: sticky;
-                left: 10px;
-                top: 0;
-                max-width: 300px;
 
-                img {
-                    width: 149px;
-                    height: auto;
-                }
-            }
         }
 
         .container2 {
